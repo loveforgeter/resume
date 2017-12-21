@@ -1,90 +1,106 @@
-% !TEX TS-program = xelatex
+% !TEX program = xelatex
 % !TEX encoding = UTF-8 Unicode
 % !Mode:: "TeX:UTF-8"
 
 \documentclass{resume}
-\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
-\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{zh_CN-Adobefonts_external}
+\usepackage{linespacing_fix}
 \usepackage{cite}
 
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
+\pagenumbering{gobble}
 
-\name{你的大名}
+\name {个人简历}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
- 
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+    \textnormal{\faUser 符家伟} \textperiodcentered\
+    \email{loveforgeter@163.com} \textperiodcentered\
+    \phone{(+86) 185-1669-3661}
+}
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
-\begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
-\end{itemize}
+\section{\faGraduationCap\ 教育背景}
+\datedsubsection{\textbf{电子科技大学} \ 成都,四川}{2009年 -- 2013年}
+\textit{学士}\ 信息安全
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
+\section{\faUsers\ 工作经历}
+% 大智慧
+\datedsubsection{\textbf{上海大智慧股份有限公司}}{2013年7月 -- 2015年7月}
+\role{C++研发工程师}
+
 \begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
-\begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
-\end{itemize}
+    \textbf{客户端研发}
+    \begin{itemize}
+        \item 使用C++编写部分UI控件
+        \item 使用C++编写部分行情数据显示插件
+        \item 使用C++编写插件容器来进行插件管理
+    \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
 \begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
-\begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
-\end{itemize}
+    \textbf{金融浏览器项目}
+    \begin{itemize}
+        \item UI调整及维护
+        \item 实现登陆模块及多站点Cookie同步
+        \item 使用NPPlugin技术将插件容器与浏览器集成
+    \end{itemize}
 \end{onehalfspacing}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
+\begin{onehalfspacing}
+    \textbf{金融云平台项目}
+    \begin{itemize}
+        \item 使用Golang及C++编写公式系统SDK，为其他模块提供公式计算
+        \item 使用Golang编写键盘宝服务，快速查询沪深市场股票元数据
+        \item 使用Golang编写分级基金数据采集及计算服务
+    \end{itemize}
+\end{onehalfspacing}
+
+% ECO
+\datedsubsection{\textbf{上海铱科信息科技有限公司（ECO Inc.）}}{2015年7月 -- 现在}
+\role{iOS研发工程师}
+
+\begin{onehalfspacing}
+    \textbf{AXENT APP}
+    \begin{itemize}
+        \item 负责iOS端AXENT APP研发及维护
+    \end{itemize}
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+    \textbf{AXENT PIM产品管理平台}
+    \begin{itemize}
+        \item 负责产品资源管理模块，用来管理产品资源的关联与上传
+    \end{itemize}
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+    \textbf{AXENT 后台管理系统}
+    \begin{itemize}
+        \item 负责管理系统的前端开发，包括经销商管理、产品管理、用户管理、推广功能等
+    \end{itemize}
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+    \textbf{AXENT微信小程序}
+    \begin{itemize}
+        \item 负责AXENT微信小程序的开发
+    \end{itemize}
+\end{onehalfspacing}
 
 \section{\faCogs\ IT 技能}
-% increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
-  \item 平台: Linux
-  \item 开发: xxx
+    \item 语言：Swift、Objective-C、Javascript、Golang、C/C++、PHP、Shell、HTML、CSS
+    \item 平台：iOS、MacOS、Linux、Windows
 \end{itemize}
 
-\section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
-
-\section{\faInfo\ 其他}
-% increase linespacing [parsep=0.5ex]
+\section{\faInfoCircle\ 其他}
 \begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
+    \item \github{Github: https://github.com/loveforger}
+    \item \text{\faLanguage 语言: 英语 - 熟练(六级)}
 \end{itemize}
 
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
+% \section{\faHeart\ 致谢}
+% \begin{itemize}[parsep=0.5ex]
+%     \item 感谢您花时间阅读我的简历，期待能有机会和您共事。
+% \end{itemize}
+
 \end{document}
