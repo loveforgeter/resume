@@ -10,16 +10,15 @@
 \begin{document}
 \pagenumbering{gobble}
 
-\name {个人简历}
+\name {符家伟}
 
 \basicInfo{
-    \textnormal{\faUser 符家伟} \textperiodcentered\
     \email{loveforgeter@163.com} \textperiodcentered\
     \phone{(+86) 185-1669-3661}
 }
 
 \section{\faGraduationCap\ 教育背景}
-\datedsubsection{\textbf{电子科技大学} \ 成都,四川}{2009年 -- 2013年}
+\datedsubsection{\textbf{电子科技大学} \ 成都，四川}{2009年 -- 2013年}
 \textit{学士}\ 信息安全
 
 \section{\faUsers\ 工作经历}
@@ -28,29 +27,34 @@
 \role{C++研发工程师}
 
 \begin{onehalfspacing}
-    \textbf{客户端研发}
+    \textbf{大智慧365客户端}
     \begin{itemize}
-        \item 使用C++编写部分UI控件
-        \item 使用C++编写部分行情数据显示插件
-        \item 使用C++编写插件容器来进行插件管理
+        \item 使用C++编写UI控件
+        \item 使用C++编写行情数据显示插件
+        \item 使用C++编写插件容器进行插件管理
     \end{itemize}
 \end{onehalfspacing}
 
 \begin{onehalfspacing}
-    \textbf{金融浏览器项目}
+    \textbf{大智慧金融浏览器}
     \begin{itemize}
-        \item UI调整及维护
-        \item 实现登陆模块及多站点Cookie同步
-        \item 使用NPPlugin技术将插件容器与浏览器集成
+        \item 基于Firefox做定制开发，前端UI调整及维护
+        \item 使用Javascript实现用户登陆模块
+        \item 使用Javascript实现大智慧多站点Cookie同步
+        \item 使用NPPlugin技术为浏览器集成插件容器
+        \item Mac版本金融浏览器调整及维护
     \end{itemize}
 \end{onehalfspacing}
 
 \begin{onehalfspacing}
-    \textbf{金融云平台项目}
+    \textbf{大智慧金融云平台}
     \begin{itemize}
-        \item 使用Golang及C++编写公式系统SDK，为其他模块提供公式计算
-        \item 使用Golang编写键盘宝服务，快速查询沪深市场股票元数据
-        \item 使用Golang编写分级基金数据采集及计算服务
+        \item 使用C++开发公式系统跨平台版本
+        \item 使用Golang及CGO编写公式系统SDK，提供公式计算服务
+        \item 使用Golang编写公式导入服务，解析公式文件并导入Redis存储，供公式计算服务使用
+        \item 使用Golang编写公式计算服务，订阅ZeroMQ总线上最新的股票数据，计算常用股票指标并存储
+        \item 使用Golang编写键盘宝服务，用来进行股票检索，根据输入的字符串输出相关的股票元数据
+        \item 使用Golang编写分级基金计算服务，采集分级基金数据并进行计算
     \end{itemize}
 \end{onehalfspacing}
 
@@ -59,30 +63,33 @@
 \role{iOS研发工程师}
 
 \begin{onehalfspacing}
-    \textbf{AXENT APP}
+    \textbf{AXENT iOS客户端}
     \begin{itemize}
-        \item 负责iOS端AXENT APP研发及维护
+        \item APP整体架构设计及功能划分，主要使用Swift开发
+        \item 智能坐便器产品360预览及坐便盖开合预览设计及开发
+        \item 产品选购功能设计及开发
+        \item 离线功能设计及开发，配合离线数据包即使没有网络也能展示数据，满足展会及设计周等无网络场景需要
+        \item 多语言版设计及开发
+        \item 使用Fastlane进行APP自动化打包发布
     \end{itemize}
 \end{onehalfspacing}
 
 \begin{onehalfspacing}
-    \textbf{AXENT PIM产品管理平台}
+    \textbf{AXENT 管理平台}
     \begin{itemize}
-        \item 负责产品资源管理模块，用来管理产品资源的关联与上传
+        \item 基于Akeneo PIM Community做定制开发，用来管理AXENT产品及客户数据，底层基于Symfony，前端使用RequireJS及BackboneJS
+        \item 开发AppBundle，提供产品资源管理功能
+        \item 开发CRMBundle，提供客户管理功能
+        \item 使用HTML、CSS、JS等Web技术开发CRM AXENT管理前端，包含经产品管理、销商管理、用户管理等
+        \item 使用HTML、CSS、JS等Web技术开发CRM 经销商管理前端，包含经销商产品管理、经销商产品牌价管理、经销商用户管理、推广功能设置等
+        \item 使用React、Redux、Antd等技术重构CRM管理前端
     \end{itemize}
 \end{onehalfspacing}
 
 \begin{onehalfspacing}
-    \textbf{AXENT 后台管理系统}
+    \textbf{AXENT 微信小程序}
     \begin{itemize}
-        \item 负责管理系统的前端开发，包括经销商管理、产品管理、用户管理、推广功能等
-    \end{itemize}
-\end{onehalfspacing}
-
-\begin{onehalfspacing}
-    \textbf{AXENT微信小程序}
-    \begin{itemize}
-        \item 负责AXENT微信小程序的开发
+        \item 开发AXENT小程序版本，功能与iOS版本一致
     \end{itemize}
 \end{onehalfspacing}
 
@@ -90,17 +97,18 @@
 \begin{itemize}[parsep=0.5ex]
     \item 语言：Swift、Objective-C、Javascript、Golang、C/C++、PHP、Shell、HTML、CSS
     \item 平台：iOS、MacOS、Linux、Windows
+    \item 工具：VS Code、XCode
 \end{itemize}
 
 \section{\faInfoCircle\ 其他}
 \begin{itemize}[parsep=0.5ex]
     \item \github{Github: https://github.com/loveforger}
-    \item \text{\faLanguage 语言: 英语 - 熟练(六级)}
+    \item \faLanguage{语言: 英语 - 熟练(六级)}
 \end{itemize}
 
-% \section{\faHeart\ 致谢}
-% \begin{itemize}[parsep=0.5ex]
-%     \item 感谢您花时间阅读我的简历，期待能有机会和您共事。
-% \end{itemize}
+\section{\faHeart\ 致谢}
+\begin{itemize}[parsep=0.5ex]
+    \item 感谢您花时间阅读我的简历，期待能有机会和您共事
+\end{itemize}
 
 \end{document}
