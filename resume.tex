@@ -1,75 +1,101 @@
 % !TEX program = xelatex
 \documentclass{resume}
-%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix}
 
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
+\pagenumbering{gobble}
 
-\name{Bin Yuan}
+\name{Garvey Fu}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
+  \email{loveforgeter@163.com} \textperiodcentered\ 
+  \phone{(+86) 185-1669-3661}
+}
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+\datedsubsection{\textbf{University of Electronic Science and Technology of China (UESTC)}, Chengdu, China}{2009 -- 2013}
+\textit{B.S.} in Information Security
 
 \section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
-\begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
-\end{itemize}
+\datedsubsection{\textbf{Shanghai DZH Co.,Ltd.} Shanghai, China}{2013.7 -- 2015.7}
+\role{C++ Development Engineer}{}
+\begin{onehalfspacing}
+    \textbf{DZH 365 Client}
+    \begin{itemize}
+        \item Implemented UI controls using C++.
+        \item Implemented stock data presentation plugin.
+        \item Implemented Stock-Plugin-Container for plugins management in client.
+    \end{itemize}
+\end{onehalfspacing}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
-\begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
-\end{itemize}
+\begin{onehalfspacing}
+    \textbf{DZH Browser}
+    \begin{itemize}
+        \item Based on Firefox, customize UI and extend using plugins.
+        \item Implemented login feature using javascript.
+        \item Syncronize cookies for DZH sites using javascript.
+        \item Integrated Stock-Plugin-Container using NPPluigin technique.
+        \item Maintain MacOS version.
+    \end{itemize}
+\end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
-\begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
-\end{itemize}
+\begin{onehalfspacing}
+    \textbf{DZH Cloud Platform}
+    \begin{itemize}
+        \item Formula System cross platform support.
+        \item Develop Formula System SDK using golang and cgo.
+        \item Implemented formula import service, parse fomulas from file and save them to Redis storage using golang.
+        \item Implemented stock index calculation service using golang, calculate common indices when stock data updated.
+        \item Implemented Key-Elf service using golang, quick search stock data.
+        \item Implemented grading fund calculation service, calculate when fund data updated.
+    \end{itemize}
+\end{onehalfspacing}
 
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
+\datedsubsection{\textbf{Shanghai ECO Co.,Ltd.} Shanghai, China}{2015.7 -- Present}
+AXENT IT Support Department, Startups
+\role{iOS Development Engineer}{}
+\begin{onehalfspacing}
+    \textbf{AXENT iOS App}
+    \begin{itemize}
+        \item Design architecture.
+        \item Implemented 360 degree product preview feature.
+        \item Implemented product selection and presentation feature.
+        \item Implemented offline feature.
+        \item Multiple languages and regions support.
+        \item Automate package and upload process using fastlane.
+    \end{itemize}
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+    \textbf{AXENT Console}
+    \begin{itemize}
+        \item Based on Akeneo PIM Community, for manage AXENT product data and customer relationships. Using Symfony Framework, Requirejs and BackboneJS.
+        \item Develop AppBundle, provide product assets management feature.
+        \item Develop CRMBundle, provide customers management feature.
+        \item Implemented AXENT admin console frontend, including products management, dealers managment, users managment etc.
+        \item Implemented AXENT dealer admin console frontend, including products management, price policies management, marketing feature etc.
+        \item Refactor using React, Redux and Antd.
+    \end{itemize}
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+    \textbf{AXENT Wechat Weapp}
+    \begin{itemize}
+        \item Develop AXENT Wechat Weapp, same as iOS App.
+    \end{itemize}
+\end{onehalfspacing}
 
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
+  \item Programming Languages: Swift == Objective-C > Javascript > Golang == C/C++ > PHP
+  \item Platforms: MacOS, Windows
+  \item Tools: Visual Studio Code, XCode
 \end{itemize}
 
 \section{\faInfo\ Miscellaneous}
 \begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
+  \item GitHub: https://github.com/loveforgeter
   \item Languages: English - Fluent, Mandarin - Native speaker
 \end{itemize}
 
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
